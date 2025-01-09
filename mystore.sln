@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "mystore", "mystore\mystore\", "{A0F9356D-B712-4767-A841-19D5402F469D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{a2569516-112d-482b-a3d0-51a8a9005993}|YFModel.dll;{920d631b-f0f5-4a20-98c3-be045859e7da}|YFBLL.dll;{c787831d-0864-4076-b3d7-274f25d94ee3}|YFDAL.dll;{8f096f21-f606-4b4f-b261-931f1c433781}|YFUtility.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3421"
+		Debug.AspNetCompiler.PhysicalPath = "mystore\mystore\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3421\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3421"
+		Release.AspNetCompiler.PhysicalPath = "mystore\mystore\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3421\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3421"
+		SlnRelativePath = "mystore\mystore\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YFModel", "YFModel\YFModel.csproj", "{A2569516-112D-482B-A3D0-51A8A9005993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YFBLL", "YFBLL\YFBLL.csproj", "{920D631B-F0F5-4A20-98C3-BE045859E7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YFDAL", "YFDAL\YFDAL.csproj", "{C787831D-0864-4076-B3D7-274F25D94EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YFUtility", "YFUtility\YFUtility.csproj", "{8F096F21-F606-4B4F-B261-931F1C433781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0F9356D-B712-4767-A841-19D5402F469D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F9356D-B712-4767-A841-19D5402F469D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F9356D-B712-4767-A841-19D5402F469D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F9356D-B712-4767-A841-19D5402F469D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A2569516-112D-482B-A3D0-51A8A9005993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2569516-112D-482B-A3D0-51A8A9005993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2569516-112D-482B-A3D0-51A8A9005993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2569516-112D-482B-A3D0-51A8A9005993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920D631B-F0F5-4A20-98C3-BE045859E7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920D631B-F0F5-4A20-98C3-BE045859E7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920D631B-F0F5-4A20-98C3-BE045859E7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920D631B-F0F5-4A20-98C3-BE045859E7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C787831D-0864-4076-B3D7-274F25D94EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C787831D-0864-4076-B3D7-274F25D94EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C787831D-0864-4076-B3D7-274F25D94EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C787831D-0864-4076-B3D7-274F25D94EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F096F21-F606-4B4F-B261-931F1C433781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F096F21-F606-4B4F-B261-931F1C433781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F096F21-F606-4B4F-B261-931F1C433781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F096F21-F606-4B4F-B261-931F1C433781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADA12435-4490-42BD-8726-FE8CBF2FB872}
+	EndGlobalSection
+EndGlobal
